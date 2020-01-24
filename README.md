@@ -4,6 +4,8 @@ Implementation of Inverted Indexes on Python.
 Classes:
 
 1) Word
+    
+    
     Functions:
       a) create_object(word,doc_id,indexes) - classmethod
           Description : Creates an object of the word class, saves the word in the word dictionary in the Word class.
@@ -12,6 +14,8 @@ Classes:
       c) normalize_word(word) - classmethod
           Description : Normalizes a word i.e. 'WoRd,' will be returned as word and 'RaBin-KaRp' will be returned as                                               [rabin-karp, rabin, karp]
 2) Document
+    
+    
     Function:
       a) create_object(doc_name,doc) - classmethod
           Description : Creates a document object. Takes 2 parameters from user 'doc_name' and 'doc'.
