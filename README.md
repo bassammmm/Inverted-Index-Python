@@ -42,43 +42,43 @@ Classes:
 3) Main
 
 
-Function:
+    Function:
 
 
-a) fetchall()
+      a) fetchall()
 
 
-Description : This will fetch all the data from the database and saves it in the dictionaries for searching.
+      Description : This will fetch all the data from the database and saves it in the dictionaries for searching.
 
 
 4) Search
 
 
-Function:
+    Function:
 
 
-a)  search_single_word(user_query) - classmethod
+    a)  search_single_word(user_query) - classmethod
 
 
-Description : This will search a single word and return a dictionary with the searched word with doc id and indexes.
+    Description : This will search a single word and return a dictionary with the searched word with doc id and indexes.
 
 
-b)  multi_word_query(user_query) - classmethod
+    b)  multi_word_query(user_query) - classmethod
 
 
-Description : This will search multiple words. It searches with higher priority given to AND operator for example if a search                           query is passed "The quick brown fox" it will first try to search a document which will include all these words.                           If not then OR operator is given priority and it will return a list of documents with the most number of words                             from the search query occuring in the document. 
+    Description : This will search multiple words. It searches with higher priority given to AND operator for example if a search                           query is passed "The quick brown fox" it will first try to search a document which will include all these words.                           If not then OR operator is given priority and it will return a list of documents with the most number of words                             from the search query occuring in the document. 
 
 
-c)  create_tokens(doc) - classmethod
+    c)  create_tokens(doc) - classmethod
 
 
-Description : This will seperate different words from a multiword query
+    Description : This will seperate different words from a multiword query
 
 
-d)  normalize_word(word) - classmethod
+    d)  normalize_word(word) - classmethod
 
 
-Description : Normalizes a word i.e. 'WoRd,' will be returned as word and 'RaBin-KaRp' will be returned as                                               [rabin-karp, rabin, karp]
+    Description : Normalizes a word i.e. 'WoRd,' will be returned as word and 'RaBin-KaRp' will be returned as                                               [rabin-karp, rabin, karp]
          
 # Functions to be used by User:-
 
