@@ -7,12 +7,24 @@ Classes:
     
     
     Functions:
+      
+      
       a) create_object(word,doc_id,indexes) - classmethod
-          Description : Creates an object of the word class, saves the word in the word dictionary in the Word class.
+      
+      
+            Description : Creates an object of the word class, saves the word in the word dictionary in the Word class.
+      
+      
       b) create_indexes(doc_id,doc_name,doc) - classmethod
-          Description : Splits words and then creates_object of each word in the document after creating keys and indexes for each word
+      
+      
+            Description : Splits words and then creates_object of each word in the document after creating keys and indexes for each word
+      
+      
       c) normalize_word(word) - classmethod
-          Description : Normalizes a word i.e. 'WoRd,' will be returned as word and 'RaBin-KaRp' will be returned as                                               [rabin-karp, rabin, karp]
+      
+      
+            Description : Normalizes a word i.e. 'WoRd,' will be returned as word and 'RaBin-KaRp' will be returned as                                               [rabin-karp, rabin, karp]
 2) Document
     
     
