@@ -30,7 +30,7 @@ Classes:
       d)  normalize_word(word) - classmethod
           Description : Normalizes a word i.e. 'WoRd,' will be returned as word and 'RaBin-KaRp' will be returned as                                               [rabin-karp, rabin, karp]
          
-#Functions to be used by User:
+# Functions to be used by User:-
 Functions:
   1) Main.fetchall()
       Description : This will fetch all the data from the database so that the user can then search the word from the already saved                         documents.
